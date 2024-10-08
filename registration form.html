@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML form</title>
+    </head>
+    <body>
+        <style>
+            title{
+                background-position: center;
+                align-content: center;
+                display: flex;
+                background-size: cover;
+                padding: 10px;
+                justify-content: center;
+                position: absolute;
+                box-sizing: border-box;
+
+                
+                
+            
+            
+        </style>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    phone:
+                </td>
+                <td>
+                    <input type="tel">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email:
+                </td>
+                <td>
+                    <input type="email">
+             </td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio"value="male"name="gender">Male
+                    <input type="radio"value="female"name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>country:</td>
+                <td>
+                    <select >
+                        <option >Nepal</option>
+                        <option>kenya</option>
+                        <option>other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Message:
+                </td>
+                <td>
+                    <textarea rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>choose photo:</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td>color:</td>
+                <td><input type="color"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit"value="submit">
+                    <input type="reset"value="reset">
+                </td>
+            </tr>
+            </table>
+    </body>
+    <style>
+        body:before{
+            content: "";
+            background: fixed;
+        }
+        body{
+           background-color: blueviolet; 
+           width: 30%;
+           flex-direction: column;
+           margin: auto;
+           display: flex;
+           height: 100%;
+           gap: 10px;
+           padding: 10px;
+           min-height: 100vh;
+           max-width: fit-content;
+
+           
+        }
+            
+
+
+        }
+        body::before{
+            content: "";
+            position: absolute;
+        }
+    </style>
+</html>
